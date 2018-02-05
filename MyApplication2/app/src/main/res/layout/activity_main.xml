@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.aphrodite.myapplication.MainActivity">
+
+
+    <ViewAnimator
+        android:layout_width="303dp"
+        android:layout_height="401dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintDimensionRatio="h,1:1"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="92dp">
+
+
+    </ViewAnimator>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="一个人会遇到许许多多的困难，可问题是坚持下去还是放弃。可能很多人都会选择放弃。可是放弃的人永远都会呆在别人的嘲笑当中，而坚持下去的人不管有没有成功，都会受到所有人的尊重。"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="176dp"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeShareDrawable"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="day"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="number"
+        android:text="4"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+</RelativeLayout>
